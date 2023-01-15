@@ -40,9 +40,9 @@
     <p class="text-xl mb-4">{intro}</p>
   </div>
 
-  <img class="mask mask-squircle h-48" src={url} alt={name} />
+  <img class="rounded-full h-48" src={url} alt={name} />
 </div>
 
-<article div class="prose prose-lg">
+<article class="prose prose-lg">
   {@html marked(bio)}
 </article>

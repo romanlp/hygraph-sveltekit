@@ -5,6 +5,8 @@ import {
   fetchSiteMetadata,
 } from '$stores/site-metadata'
 
+export const prerender = true;
+
 export const load = async () => {
   await fetchAuthors()
   await fetchSiteMetadata()
